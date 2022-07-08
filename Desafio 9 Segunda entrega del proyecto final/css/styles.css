@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*{
+   font-family: 'Poppins', sans-serif;
+   box-sizing: border-box;
+ }
+
+.fondoindex{
+   height: 100vh; 
+}
+
+
+
+
+ 
+ .fondo{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/Hamburger3.jpg);
+    position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+  
+   }
+
+.fondo h1{
+  font-weight: 700;
+  font-size: 80px;
+}
+
+
+.alturaimagen{
+    height: 560px;
+}
+
+
+.textomenu{
+  font-weight: 700;
+  font-size: 80px;
+}
+
+@media (max-width: 768px){
+    .fondo h1{
+        font-weight: 700;
+        font-size: 25px;
+      }
+      .alturaimagen{
+        height: 300px;
+      } 
+      .fondoindex{
+        height: 60vh; 
+     }
+     .textomenu{
+      font-weight: 600;
+      font-size: 60px;
+    }
+}
+
+
+@media (max-width: 576px){
+    .alturaimagen{
+        height: 200px;
+      } 
+      .fondoindex{
+        height: 40vh; 
+     }
+
+     .textomenu{
+      font-weight: 600;
+      font-size: 40px;
+    }
+   
+}
+
+.banner-image{
+  background:  linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(121,107,9,0.2) 78%, rgba(255,222,0,0) 100%),url(../img/Hambuger.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.text1{
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  animation: text  3s 1;
+}
+
+@keyframes text{
+  0%{
+      margin-bottom: -40px;
+  }
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+  85%{
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+}
+
+
+
+.img-animation img {
+ 
+  transition: width .5s ease-in-out;
+}
+
+.img-animation:hover img{
+  width: 110%;
+}
+
+.iconoanimacion i{
+  transition: transform 0.5s ease-in-out;
+  
+}
+
+
+.iconoanimacion:hover i {
+  transform: scale(1.5);
+}
+
+
+.img-animacion-index:hover img {
+  transform-origin: left top;
+  animation: scale 250ms ease-in-out forwards;
+}
+
+@keyframes scale {
+  to {
+    transform: scale(1.1);
+  }
+}
+
+
+
